@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>😂 The Internet's Funniest Gallery</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ffecd2,#fcb69f);
+    text-align:center;
+}
+
+header{
+    padding:40px;
+}
+
+h1{
+    font-size:3rem;
+}
+
+p{
+    margin-top:10px;
+    color:#444;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    padding:30px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:rotate(2deg) scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+}
+
+.card h2{
+    padding:15px;
+}
+
+footer{
+    padding:30px;
+    font-size:18px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>😂 Meme-ish Animal Gallery 😂</h1>
+<p>Warning: Excessive smiling may occur.</p>
+</header>
+
+<div class="gallery">
+
+<div class="card">
+<img src="img1.jpg">
+<h2>🐶 "I definitely didn't eat your homework."</h2>
+</div>
+
+<div class="card">
+<img src="img2.jpg">
+<h2>🐱 Plotting world domination since breakfast.</h2>
+</div>
+
+<div class="card">
+<img src="img3.jpg">
+<h2>🐕 Zoomies activated...good luck catching me!</h2>
+</div>
+
+<div class="card">
+<img src="img4.jpg">
+<h2>🦥 Monday mood in one picture.</h2>
+</div>
+
+<div class="card">
+<img src="img5.jpg">
+<h2>🐼 Me pretending I understand the meeting.</h2>
+</div>
+
+<div class="card">
+<img src="img6.jpg">
+<h2>🦜 When you accidentally reply to everyone.</h2>
+</div>
+
+</div>
+
+<footer>
+🤣 Thanks for visiting. Your daily dose of silliness has been delivered.
+</footer>
+
+</body>
+</html>
